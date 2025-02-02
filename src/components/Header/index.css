@@ -1,0 +1,29 @@
+.header {
+  gap: 20px;
+}
+
+.logo-container {
+  background-color: transparent;
+  border-width: 0;
+  border-style: none;
+}
+
+.icon {
+  color: white;
+}
+
+.mobile-header-container {
+  min-width: fit-content;
+}
+
+.jobs-link {
+  list-style: none;
+}
+
+.home-link {
+  list-style: none;
+}
+
+.header-icons-container {
+  min-width: fit-content;
+}

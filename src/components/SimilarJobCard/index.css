@@ -1,0 +1,95 @@
+.similar-job-card {
+  background-color: #1c1c1c;
+  border-radius: 12px;
+  padding: 24px;
+  list-style: none;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.similar-job-header {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.netflix-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.netflix-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.similar-job-title {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star {
+  color: #fbbf24;
+}
+
+.rating-number {
+  color: white;
+}
+
+.similar-description-section {
+  margin-bottom: 24px;
+}
+
+.description-heading {
+  color: white;
+  margin-bottom: 8px;
+}
+
+.similar-description-text {
+  color: rgb(209, 213, 219);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.similar-job-footer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: rgb(209, 213, 219);
+  font-size: 14px;
+}
+
+.similar-job-title-rating-container {
+  margin: 5px;
+}
+
+.location-info,
+.employment-type {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (min-width: 768px) {
+  .similar-job-card {
+    max-width: 320px;
+    margin: 15px;
+  }
+}
+
+.location-emp-type-txt {
+  padding-left: 3px;
+}

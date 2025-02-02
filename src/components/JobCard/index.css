@@ -1,0 +1,79 @@
+.card-container {
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #272727;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.company-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.job-title {
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.rating-text {
+  margin-bottom: 0;
+}
+
+.location-emp-type-txt {
+  margin-bottom: 0;
+}
+
+.card-details {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.location-type {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #f1f5f9;
+}
+
+.salary {
+  font-weight: bold;
+  color: #f8fafc;
+}
+
+.description {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.description-heading {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    min-width: 400px;
+    max-width: 90%;
+  }
+}
