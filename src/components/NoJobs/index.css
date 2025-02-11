@@ -1,0 +1,17 @@
+.no-jobs-container {
+  padding-top: 15%;
+  margin: 8px;
+  align-self: center;
+  min-height: fit-content;
+  min-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.no-jobs-img {
+  height: 250px;
+  width: fit-content;
+  padding-bottom: 15px;
+}
